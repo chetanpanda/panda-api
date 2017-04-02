@@ -1,0 +1,13 @@
+#!/bin/bash
+
+REPORTS_PATH="${CIRCLE_TEST_REPORTS:-./reports}/junit"
+
+printf "Running tests:\n\n"
+
+printf "Running linter:\n\n"
+./scripts/lint
+lintResult=$?
+
+echo "Finished Tests."
+
+! (( $lintResult ))

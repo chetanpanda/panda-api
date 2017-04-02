@@ -1,0 +1,23 @@
+#!/bin/bash
+
+REPORTS_PATH="${CIRCLE_TEST_REPORTS:-./reports}/junit"
+
+printf "Running ESLint:\n\n"
+
+if [ "$IS_CI" = "true" ]; then
+  # JUnit Report
+  eslint \
+    --format junit \
+    --output-file $REPORTS_PATH/eslint.xml \
+    .
+else
+  # CLI Report
+  eslint \
+    --format stylish \
+    .
+fi
+lintResult=$?
+
+echo "Finished linting."
+
+! (( $lintResult ))

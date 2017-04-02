@@ -1,0 +1,8 @@
+#!/bin/bash
+
+printf "Watching with nodemon:\n\n"
+
+nodemon \
+  --watch lib \
+  -e js \
+  service.js

@@ -1,0 +1,28 @@
+{
+  "name": "panda-ms-api",
+  "version": "0.0.1",
+  "description": "The API microservice for ChetanPanda.com.",
+  "main": "service.js",
+  "repository": "git@github.com:chetan-panda/panda-ms-api",
+  "author": "Alexander Martin <alex@suitupalex.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "./scripts/lint",
+    "start": "./scripts/start",
+    "test": "./scripts/test",
+    "watch": "./scripts/watch"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ctrl-content-manager": "^1.1.0",
+    "ctrl-env": "^2.1.0",
+    "feathers": "^2.1.1",
+    "feathers-rest": "^1.7.1",
+    "feathers-socketio": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-ctrl": "^3.1.1",
+    "nodemon": "^1.11.0"
+  }
+}
