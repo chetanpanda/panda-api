@@ -6,6 +6,7 @@
   "repository": "git@github.com:chetan-panda/panda-ms-api",
   "author": "Alexander Martin <alex@suitupalex.com>",
   "license": "Apache-2.0",
+  "private": true,
   "scripts": {
     "lint": "./scripts/lint",
     "start": "./scripts/start",
