@@ -459,9 +459,9 @@ cryptiles@2.x.x:
   dependencies:
     boom "2.x.x"
 
-ctrl-content-manager@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ctrl-content-manager/-/ctrl-content-manager-1.1.0.tgz#e72d27b1402b45c9896ee405544d229323016454"
+ctrl-content-manager@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ctrl-content-manager/-/ctrl-content-manager-1.2.0.tgz#6a06ca1fd200723e946889d5e139927de58ef282"
   dependencies:
     contentful "^3.5.0"
     debug "^2.2.0"
@@ -499,13 +499,13 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
-debug@2.6.1, debug@^2.2.0, debug@^2.6.0:
+debug@2.6.1, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
     ms "0.7.2"
 
-debug@2.6.3, debug@^2.1.1:
+debug@2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
@@ -1542,11 +1542,11 @@ lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
-lodash@^4.0.0, lodash@^4.2.0, lodash@~4.2.0:
+lodash@^4.0.0, lodash@~4.2.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.2.1.tgz#171fdcfbbc30d689c544cd18c0529f56de6c1aa9"
 
-lodash@^4.3.0:
+lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
