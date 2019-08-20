@@ -14,16 +14,16 @@
     "watch": "./scripts/watch"
   },
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.19.0",
     "ctrl-content-manager": "^1.2.0",
-    "ctrl-env": "^2.1.0",
-    "feathers": "^2.1.1",
-    "feathers-rest": "^1.7.1",
-    "feathers-socketio": "^1.5.2"
+    "ctrl-env": "^2.2.0",
+    "feathers": "^2.2.4",
+    "feathers-rest": "^1.8.1",
+    "feathers-socketio": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-ctrl": "^3.1.1",
-    "nodemon": "^1.11.0"
+    "eslint": "^6.2.1",
+    "eslint-config-ctrl": "^5.0.0",
+    "nodemon": "^1.19.1"
   }
 }
